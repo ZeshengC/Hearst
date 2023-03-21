@@ -35,11 +35,9 @@ public class CacheServiceTests {
 
     @Test
     public void testgetCache() {
-
         assertEquals(classToTest.get(1).getPrice(), 12.4, 0.1);
         assertEquals(classToTest.get(1).getRetailerName(), "rn123");
         assertEquals(classToTest.get(1).getSkuName(), "abc123");
         assertEquals(classToTest.get(1).getUrl(), "https://url1.com");
-
     }
 }
